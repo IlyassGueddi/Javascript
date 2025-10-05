@@ -1,9 +1,31 @@
 // *-----Data types-----* //
 
-// Undefined: something or a variable that haven't been defined //
+// Undefined: A variable declared but not assigned a value //
 
-// Null: nothing //
+// Null: Represents "no value" or empty //
 
-// Boolean: True or False //
+// Boolean: Represents true or false //
 
-// String: text //
+// String: Represents text, sequence of characters //
+
+// Symbol: A unique and immutable value, used as an object key //
+
+// Number: Represents numeric values (integers & floats) //
+
+// Object: A collection of key-value pairs (can store multiple values and other objects) //
+
+
+
+// *-----Variables types-----*//
+
+// Var: old, flexible, function-level //
+
+var my_name = "Ilyass Gueddi"
+
+// let: modern, flexible, block-level //
+
+let our_name = "Mial"
+
+// const: modern, fixed, block-level //
+
+const pi = 3.14 
