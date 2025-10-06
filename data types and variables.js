@@ -20,12 +20,12 @@
 
 // Var: old, flexible, function-level //
 
-var my_name = "Ilyass Gueddi"
+var my_name = "Ilyass Gueddi";
 
 // let: modern, flexible, block-level //
 
-let our_name = "Mial"
+let our_name = "Mial";
 
 // const: modern, fixed, block-level //
 
-const pi = 3.14 
+const pi = 3.14 ;
