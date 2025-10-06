@@ -4,3 +4,7 @@ var myVar = 11;
 myVar = myVar + 1;
 // we can do this//
 myVar++;
+
+
+// if we want to add an other num we can do//
+myVar += 7;
