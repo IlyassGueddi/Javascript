@@ -21,7 +21,6 @@
 // Var: old, flexible, function-level //
 
 var my_name = "Ilyass Gueddi";
-console.log(my_name)
 
 // let: modern, flexible, block-level //
 
