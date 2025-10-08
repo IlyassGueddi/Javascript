@@ -1,4 +1,5 @@
 // object in javascript is like a dictionnary in python soo we can store a lot of connected values that have  connection and everyone of them have a name //
+
 // ---------- For Eexample ---------- //
 
 let person = {
@@ -24,7 +25,7 @@ let person1 = {
         console.log("hello", + this.name + "!"); // this mean this object
     }
 };
-person.greet(); // hello, mial!
+person1.greet(); // hello, mial!
 
 
 // we can create an array of objects 
@@ -37,3 +38,13 @@ let students = [
  for ( i = 0; i < students.length; i ++) {
     console.log(students[i].name + " is " + students[i].age + " year old.");
  }
+
+ // if we want we can add object inside an object
+
+ let student = {
+    name: "ilyass",
+    famillyName: "Gueddi",
+    marks: { science: 11, maths: 16, physics: 14},
+ };
+
+ console.log(student.marks.maths)
